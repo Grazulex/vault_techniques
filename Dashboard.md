@@ -1,6 +1,7 @@
 ---
 created: 2025-04-13
 updated: 2025-04-13
+title: 🧭 Dashboard Obsidian
 ---
 [[todo]]
 # 🧭 Dashboard Obsidian
@@ -9,7 +10,7 @@ Bienvenue sur ton tableau de bord personnel.
 
 ---
 
-## 🔍 Dernières notes de veille
+## 🔍 Dernières Notes De Veille
 
 ```dataview
 table file.mtime as "Dernière modif"
@@ -20,7 +21,7 @@ limit 5
 
 ---
 
-## 🐛 Derniers bugs rencontrés
+## 🐛 Derniers Bugs Rencontrés
 
 ```dataview
 table file.mtime as "Dernière modif"
@@ -32,7 +33,7 @@ limit 5
 
 ---
 
-## 🏷️ Notes à relire (`#à-relire`)
+## 🏷️ Notes à Relire (`#à-relire`)
 
 ```dataview
 table file.mtime as "Modifiée le"
@@ -43,7 +44,7 @@ sort file.mtime desc
 
 ---
 
-## 📥 Inbox rapide
+## 📥 Inbox Rapide
 
 ```dataview
 list
@@ -53,7 +54,7 @@ sort file.mtime desc
 
 ---
 
-## 📌 Projets en cours (Docs perso)
+## 📌 Projets En Cours (Docs perso)
 
 ```dataview
 table file.name as "Projet", file.mtime as "Dernière modif"

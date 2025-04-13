@@ -4,14 +4,63 @@
   "palette": [
     {
       "id": "4kk8ya0eyPmQaOMjf4ciT",
+      "name": "Mauve",
+      "value": "#cba6f7"
+    },
+    {
+      "id": "nuASrWBFmEdokFVV4R45h",
+      "name": "Red",
+      "value": "#f38ba8"
+    },
+    {
+      "id": "ALfJ7GNLeEqs6jO4V9EKO",
+      "name": "Yellow",
+      "value": "#f9e2af"
+    },
+    {
+      "id": "aPr8isQYKSftvsIFzu20B",
       "name": "Blue",
-      "value": "#0000ff"
+      "value": "#89b4fa"
+    },
+    {
+      "id": "q55bHZ8BJdKpc1eYWdHRm",
+      "name": "Green",
+      "value": "#a6e3a1"
+    },
+    {
+      "id": "CBY6PxQYHc4zSn9ZtD6yC",
+      "name": "Gray",
+      "value": "#9399b2"
     }
   ],
   "fileColors": [
     {
       "path": "00_Inbox",
       "color": "4kk8ya0eyPmQaOMjf4ciT"
+    },
+    {
+      "path": "01_TechWatch",
+      "color": "nuASrWBFmEdokFVV4R45h"
+    },
+    {
+      "path": "02_DevNotes",
+      "color": "ALfJ7GNLeEqs6jO4V9EKO"
+    },
+    {
+      "path": "03_DocsPerso",
+      "color": "aPr8isQYKSftvsIFzu20B"
+    },
+    {
+      "path": "99_Archives",
+      "color": "q55bHZ8BJdKpc1eYWdHRm"
+    },
+    {
+      "path": "Attachments",
+      "color": "CBY6PxQYHc4zSn9ZtD6yC"
+    },
+    {
+      "path": "Templates",
+      "color": "CBY6PxQYHc4zSn9ZtD6yC"
     }
   ]
 }
