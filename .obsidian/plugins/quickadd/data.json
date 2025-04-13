@@ -20,6 +20,41 @@
       "type": "Macro",
       "command": true,
       "macroId": "81a9eb67-e6a8-46b2-a58e-c1373fcd8e67"
+    },
+    {
+      "id": "0e0863b9-04fc-4244-83cd-7e47696a5461",
+      "name": "Ajouter tâche complexe",
+      "type": "Capture",
+      "command": true,
+      "appendLink": false,
+      "captureTo": "todo.md",
+      "captureToActiveFile": false,
+      "createFileIfItDoesntExist": {
+        "enabled": false,
+        "createWithTemplate": false,
+        "template": ""
+      },
+      "format": {
+        "enabled": true,
+        "format": "- [ ] {{VALUE}} 📅 {{DATE:YYYY-MM-DD}} 🛫 {{DATE:YYYY-MM-DD}} 🔁 every week ⏫⏫ (Created: {{DATE:YYYY-MM-DD}})"
+      },
+      "insertAfter": {
+        "enabled": true,
+        "after": "## 📥 Inbox",
+        "insertAtEnd": false,
+        "considerSubsections": false,
+        "createIfNotFound": false,
+        "createIfNotFoundLocation": "top"
+      },
+      "prepend": false,
+      "task": true,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": false,
+      "openFileInMode": "default"
     }
   ],
   "macros": [
@@ -52,11 +87,11 @@
             },
             "appendLink": false,
             "openFileInNewTab": {
-              "enabled": false,
+              "enabled": true,
               "direction": "vertical",
               "focus": true
             },
-            "openFile": false,
+            "openFile": true,
             "openFileInMode": "default",
             "fileExistsMode": "Increment the file name",
             "setFileExistsBehavior": false
@@ -94,11 +129,11 @@
             },
             "appendLink": false,
             "openFileInNewTab": {
-              "enabled": false,
+              "enabled": true,
               "direction": "vertical",
               "focus": true
             },
-            "openFile": false,
+            "openFile": true,
             "openFileInMode": "default",
             "fileExistsMode": "Increment the file name",
             "setFileExistsBehavior": false
@@ -133,62 +168,15 @@
               "format": "- [ ] {{VALUE}}"
             },
             "insertAfter": {
-              "enabled": false,
-              "after": "",
-              "insertAtEnd": false,
-              "considerSubsections": false,
-              "createIfNotFound": false,
-              "createIfNotFoundLocation": "top"
-            },
-            "prepend": true,
-            "task": true,
-            "openFileInNewTab": {
-              "enabled": false,
-              "direction": "vertical",
-              "focus": true
-            },
-            "openFile": false,
-            "openFileInMode": "default"
-          }
-        }
-      ],
-      "runOnStartup": false
-    },
-    {
-      "name": "Ajouter tâche (formulaire)",
-      "id": "0a2be426-d524-4320-a3e0-5dd542704cc0",
-      "commands": [
-        {
-          "name": "Ajouter tâche détaillée",
-          "type": "NestedChoice",
-          "id": "fba22ae3-5f70-4a57-807b-9d3d0a7db848",
-          "choice": {
-            "id": "71033cde-c2a3-4896-8a02-d653ea51acae",
-            "name": "Ajouter tâche détaillée",
-            "type": "Capture",
-            "command": false,
-            "appendLink": false,
-            "captureTo": "todo.md",
-            "captureToActiveFile": false,
-            "createFileIfItDoesntExist": {
-              "enabled": false,
-              "createWithTemplate": false,
-              "template": ""
-            },
-            "format": {
               "enabled": true,
-              "format": "- [ ] {{VALUE}} 📅 {{DATE}} 🛫 {{START}} 🔁 {{RECUR}} {{PRIORITY}}\n  - Created: {{CREATED}}"
-            },
-            "insertAfter": {
-              "enabled": false,
-              "after": "",
+              "after": "## 📥 Inbox",
               "insertAtEnd": false,
               "considerSubsections": false,
               "createIfNotFound": false,
               "createIfNotFoundLocation": "top"
             },
             "prepend": false,
-            "task": false,
+            "task": true,
             "openFileInNewTab": {
               "enabled": false,
               "direction": "vertical",
