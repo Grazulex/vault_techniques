@@ -5,35 +5,35 @@
       "name": "Créer Bug Note",
       "type": "Macro",
       "command": true,
-      "macroId": "9e9347be-6f66-4edd-a0d7-6ca457170121"
+      "macroId": "d0e0fc17-fa16-45f6-ba7d-f72a9afdda52"
     },
     {
       "id": "93cea016-5d30-4f0a-836f-d50f4c45c9d2",
       "name": "Créer Veille Note",
       "type": "Macro",
       "command": true,
-      "macroId": "3791580f-b056-417c-86d3-4ab588592db3"
+      "macroId": "562a257b-897d-4294-b2fe-2ae324836c0f"
     },
     {
       "id": "e68af601-9cb3-414a-ab71-79b0de5e2982",
       "name": "Ajouter tâche rapide",
       "type": "Macro",
       "command": true,
-      "macroId": "c9f7fddb-7a94-47df-8f62-619a166ca93b"
+      "macroId": "81a9eb67-e6a8-46b2-a58e-c1373fcd8e67"
     }
   ],
   "macros": [
     {
-      "name": "Bug Note",
-      "id": "9e9347be-6f66-4edd-a0d7-6ca457170121",
+      "name": "Créer Bug Note",
+      "id": "d0e0fc17-fa16-45f6-ba7d-f72a9afdda52",
       "commands": [
         {
-          "name": "Untitled Template Choice",
+          "name": "Créer bug",
           "type": "NestedChoice",
-          "id": "e8665302-33a7-4376-b9d7-a100d3cff04c",
+          "id": "c00d886d-062e-4837-bc1d-f2c195c1c077",
           "choice": {
-            "id": "0d406b89-54cb-4648-9f5a-fbc738a5cfaa",
-            "name": "Untitled Template Choice",
+            "id": "6f487ca9-a47b-4196-943d-f4a154c177de",
+            "name": "Créer bug",
             "type": "Template",
             "command": false,
             "templatePath": "Templates/template-bug.md",
@@ -61,27 +61,21 @@
             "fileExistsMode": "Increment the file name",
             "setFileExistsBehavior": false
           }
-        },
-        {
-          "name": "Créer Bug Note",
-          "type": "Choice",
-          "id": "3ffc5619-7bb7-484e-8db1-3e8b1a379093",
-          "choiceId": "46e256b9-f528-4609-b538-b8f365757bf8"
         }
       ],
       "runOnStartup": false
     },
     {
-      "name": "Veille Note",
-      "id": "3791580f-b056-417c-86d3-4ab588592db3",
+      "name": "Créer Veille Note",
+      "id": "562a257b-897d-4294-b2fe-2ae324836c0f",
       "commands": [
         {
-          "name": "Untitled Template Choice",
+          "name": "Créer Veille",
           "type": "NestedChoice",
-          "id": "91976877-b2e4-4763-a506-428c71d17e24",
+          "id": "335037f0-5f7b-4cc0-a8e4-73829d7ee7e0",
           "choice": {
-            "id": "dd2a3293-45d2-40e2-9ce5-ad13c979d589",
-            "name": "Untitled Template Choice",
+            "id": "ccd23862-cdf9-454f-85f5-567c2ca03cc3",
+            "name": "Créer Veille",
             "type": "Template",
             "command": false,
             "templatePath": "Templates/template-veille.md",
@@ -109,30 +103,24 @@
             "fileExistsMode": "Increment the file name",
             "setFileExistsBehavior": false
           }
-        },
-        {
-          "name": "Créer Veille Note",
-          "type": "Choice",
-          "id": "28505102-ecab-41e3-8e97-dd858af79c4f",
-          "choiceId": "93cea016-5d30-4f0a-836f-d50f4c45c9d2"
         }
       ],
       "runOnStartup": false
     },
     {
-      "name": "Ajouter tâche",
-      "id": "c9f7fddb-7a94-47df-8f62-619a166ca93b",
+      "name": "Ajouter tâche rapide",
+      "id": "81a9eb67-e6a8-46b2-a58e-c1373fcd8e67",
       "commands": [
         {
-          "name": "Untitled Capture Choice",
+          "name": "Créer Todo",
           "type": "NestedChoice",
-          "id": "596beba3-4f03-422c-bae9-eeb9801bbd1a",
+          "id": "6961a28d-d531-4bde-a256-400a7b726a1b",
           "choice": {
-            "id": "e99f1a68-b699-4604-b838-d9fff1e4d476",
-            "name": "Untitled Capture Choice",
+            "id": "6d839cd2-1c0f-4777-9025-3fc5b5c047d0",
+            "name": "Créer Todo",
             "type": "Capture",
             "command": false,
-            "appendLink": false,
+            "appendLink": true,
             "captureTo": "todo.md",
             "captureToActiveFile": false,
             "createFileIfItDoesntExist": {
@@ -141,7 +129,7 @@
               "template": ""
             },
             "format": {
-              "enabled": true,
+              "enabled": false,
               "format": "- [ ] {{VALUE}}"
             },
             "insertAfter": {
@@ -152,8 +140,8 @@
               "createIfNotFound": false,
               "createIfNotFoundLocation": "top"
             },
-            "prepend": false,
-            "task": false,
+            "prepend": true,
+            "task": true,
             "openFileInNewTab": {
               "enabled": false,
               "direction": "vertical",
@@ -162,12 +150,6 @@
             "openFile": false,
             "openFileInMode": "default"
           }
-        },
-        {
-          "name": "Ajouter tâche rapide",
-          "type": "Choice",
-          "id": "73b6f617-17b5-4509-820d-c67bb7612d47",
-          "choiceId": "e68af601-9cb3-414a-ab71-79b0de5e2982"
         }
       ],
       "runOnStartup": false
