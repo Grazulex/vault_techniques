@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Dashboard.md",
+                "file": "Attachments/empty.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Dashboard"
+              "title": "empty"
             }
           }
         ]
@@ -195,9 +195,15 @@
   },
   "active": "6e1b1eea6267fc40",
   "lastOpenFiles": [
+    "99_Archives/empty.md",
+    "Attachments/empty.md",
+    "03_DocsPerso/empty.md",
+    "02_DevNotes/empty.md",
+    "01_TechWatch/empty.md",
+    "00_Inbox/Journal/empty.md",
+    "Dashboard.md",
     "Templates/template-task.md",
     "todo.md",
-    "Dashboard.md",
     "Attachments/banner_dashboard.png",
     "03_DocsPerso/projet-flexexpertise/readme.md",
     "00_Inbox/Journal/2025_04_13.md",
@@ -221,12 +227,6 @@
     "01_TechWatch/veille-2025-04-194.md",
     "01_TechWatch/veille-2025-04-193.md",
     "01_TechWatch/veille-2025-04-192.md",
-    "01_TechWatch/veille-2025-04-191.md",
-    "01_TechWatch/veille-2025-04-190.md",
-    "01_TechWatch/veille-2025-04-189.md",
-    "01_TechWatch/veille-2025-04-188.md",
-    "01_TechWatch/veille-2025-04-187.md",
-    "01_TechWatch/veille-2025-04-186.md",
     "03_DocsPerso/projet-flexexpertise",
     "Attachments",
     "Templates",
