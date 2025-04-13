@@ -46,7 +46,7 @@
             "templatePath": "Templates/template-bug.md",
             "fileNameFormat": {
               "enabled": true,
-              "format": "bug-{{DATE}}"
+              "format": "bug-{{DATE}}.1"
             },
             "folder": {
               "enabled": true,
@@ -88,7 +88,7 @@
             "templatePath": "Templates/template-veille.md",
             "fileNameFormat": {
               "enabled": true,
-              "format": "veille-{{DATE}}"
+              "format": "veille-{{DATE}}.1"
             },
             "folder": {
               "enabled": true,
