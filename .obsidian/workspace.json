@@ -1,14 +1,14 @@
 {
   "main": {
-    "id": "0d8e417471310819",
+    "id": "5324373015726ba8",
     "type": "split",
     "children": [
       {
-        "id": "e2c16c018d5721f7",
+        "id": "4509724f8bf84da7",
         "type": "tabs",
         "children": [
           {
-            "id": "8a67f47480480fa9",
+            "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00_Inbox/note-rapide.md",
+                "file": "01_TechWatch/laravel-news-2025-04.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of note-rapide"
+              "title": "Outline of laravel-news-2025-04"
             }
           },
           {
@@ -159,6 +159,16 @@
               "state": {},
               "icon": "git-pull-request",
               "title": "Source Control"
+            }
+          },
+          {
+            "id": "91336d219c38b1a6",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
             }
           }
         ],
@@ -173,21 +183,35 @@
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "templater-obsidian:Templater": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "obsidian-kanban:Create new board": false,
       "obsidian-git:Open Git source control": false,
+      "homepage:Open homepage": false,
       "periodic-notes:Open today": false
     }
   },
-  "active": "8a67f47480480fa9",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "02_DevNotes/bug-2025-04-13.md",
+    "03_DocsPerso/projet-flexexpertise/readme.md",
     "todo.md",
+    "00_Inbox/Journal/2025_04_13.md",
     "01_TechWatch/veille-2025-04-13.md",
+    "02_DevNotes/bug-2025-04-13.md",
+    "Dashboard.md",
+    "02_DevNotes/bug-undefined-variable.md",
+    "00_Inbox/note-rapide.md",
+    "Attachments/banner_dashboard.png.crdownload",
+    "Attachments/banner_dashboard.png",
+    "00_Inbox/Journal/2025/04.md",
+    "00_Inbox/Journal/2025",
+    "00_Inbox/Journal",
+    "00_Inbox/2025-04-13.md",
+    "00_Inbox/journam4/13/2025-2025-04-13.md",
+    "00_Inbox/journam4/13",
+    "00_Inbox/journam4",
     "Templates/template-bug.md",
     "bug-2025-04-13.md",
     "Templates/template-note-journalière.md",
@@ -203,21 +227,10 @@
     "01_TechWatch/veille-2025-04-187.md",
     "01_TechWatch/veille-2025-04-186.md",
     "01_TechWatch/veille-2025-04-185.md",
-    "01_TechWatch/veille-2025-04-184.md",
-    "01_TechWatch/veille-2025-04-183.md",
-    "01_TechWatch/veille-2025-04-182.md",
-    "01_TechWatch/veille-2025-04-181.md",
-    "01_TechWatch/veille-2025-04-180.md",
-    "01_TechWatch/veille-2025-04-179.md",
-    "01_TechWatch/veille-2025-04-178.md",
-    "01_TechWatch/veille-2025-04-177.md",
     "03_DocsPerso/projet-flexexpertise",
     "Attachments",
     "Templates",
     "99_Archives",
-    "03_DocsPerso",
-    "02_DevNotes",
-    "01_TechWatch",
-    "00_Inbox"
+    "03_DocsPerso"
   ]
 }

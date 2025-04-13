@@ -1,3 +1,4 @@
+
 # 🧭 Dashboard Obsidian
 
 Bienvenue sur ton tableau de bord personnel.

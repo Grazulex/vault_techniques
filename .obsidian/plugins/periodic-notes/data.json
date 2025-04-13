@@ -1,12 +1,12 @@
 {
-  "showGettingStartedBanner": true,
-  "hasMigratedDailyNoteSettings": false,
+  "showGettingStartedBanner": false,
+  "hasMigratedDailyNoteSettings": true,
   "hasMigratedWeeklyNoteSettings": false,
   "daily": {
-    "enabled": true,
-    "folder": "00_Inbox",
-    "format": "journal-YYYY-MM-DD",
-    "template": "Templates/template-note-journalière.md"
+    "format": "YYYY_MM_DD",
+    "folder": "00_Inbox/Journal",
+    "template": "Templates/template-note-journalière",
+    "enabled": true
   },
   "weekly": {
     "format": "",
