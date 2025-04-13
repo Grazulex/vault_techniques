@@ -1,6 +1,178 @@
 {
-  "choices": [],
-  "macros": [],
+  "choices": [
+    {
+      "id": "46e256b9-f528-4609-b538-b8f365757bf8",
+      "name": "Créer Bug Note",
+      "type": "Macro",
+      "command": true,
+      "macroId": "9e9347be-6f66-4edd-a0d7-6ca457170121"
+    },
+    {
+      "id": "93cea016-5d30-4f0a-836f-d50f4c45c9d2",
+      "name": "Créer Veille Note",
+      "type": "Macro",
+      "command": true,
+      "macroId": "3791580f-b056-417c-86d3-4ab588592db3"
+    },
+    {
+      "id": "e68af601-9cb3-414a-ab71-79b0de5e2982",
+      "name": "Ajouter tâche rapide",
+      "type": "Macro",
+      "command": true,
+      "macroId": "c9f7fddb-7a94-47df-8f62-619a166ca93b"
+    }
+  ],
+  "macros": [
+    {
+      "name": "Bug Note",
+      "id": "9e9347be-6f66-4edd-a0d7-6ca457170121",
+      "commands": [
+        {
+          "name": "Untitled Template Choice",
+          "type": "NestedChoice",
+          "id": "e8665302-33a7-4376-b9d7-a100d3cff04c",
+          "choice": {
+            "id": "0d406b89-54cb-4648-9f5a-fbc738a5cfaa",
+            "name": "Untitled Template Choice",
+            "type": "Template",
+            "command": false,
+            "templatePath": "Templates/template-bug.md",
+            "fileNameFormat": {
+              "enabled": true,
+              "format": "bug-{{DATE}}"
+            },
+            "folder": {
+              "enabled": true,
+              "folders": [
+                "02_DevNotes"
+              ],
+              "chooseWhenCreatingNote": false,
+              "createInSameFolderAsActiveFile": false,
+              "chooseFromSubfolders": false
+            },
+            "appendLink": false,
+            "openFileInNewTab": {
+              "enabled": false,
+              "direction": "vertical",
+              "focus": true
+            },
+            "openFile": false,
+            "openFileInMode": "default",
+            "fileExistsMode": "Increment the file name",
+            "setFileExistsBehavior": false
+          }
+        },
+        {
+          "name": "Créer Bug Note",
+          "type": "Choice",
+          "id": "3ffc5619-7bb7-484e-8db1-3e8b1a379093",
+          "choiceId": "46e256b9-f528-4609-b538-b8f365757bf8"
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "Veille Note",
+      "id": "3791580f-b056-417c-86d3-4ab588592db3",
+      "commands": [
+        {
+          "name": "Untitled Template Choice",
+          "type": "NestedChoice",
+          "id": "91976877-b2e4-4763-a506-428c71d17e24",
+          "choice": {
+            "id": "dd2a3293-45d2-40e2-9ce5-ad13c979d589",
+            "name": "Untitled Template Choice",
+            "type": "Template",
+            "command": false,
+            "templatePath": "Templates/template-veille.md",
+            "fileNameFormat": {
+              "enabled": true,
+              "format": "veille-{{DATE}}"
+            },
+            "folder": {
+              "enabled": true,
+              "folders": [
+                "01_TechWatch"
+              ],
+              "chooseWhenCreatingNote": false,
+              "createInSameFolderAsActiveFile": false,
+              "chooseFromSubfolders": false
+            },
+            "appendLink": false,
+            "openFileInNewTab": {
+              "enabled": false,
+              "direction": "vertical",
+              "focus": true
+            },
+            "openFile": false,
+            "openFileInMode": "default",
+            "fileExistsMode": "Increment the file name",
+            "setFileExistsBehavior": false
+          }
+        },
+        {
+          "name": "Créer Veille Note",
+          "type": "Choice",
+          "id": "28505102-ecab-41e3-8e97-dd858af79c4f",
+          "choiceId": "93cea016-5d30-4f0a-836f-d50f4c45c9d2"
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "Ajouter tâche",
+      "id": "c9f7fddb-7a94-47df-8f62-619a166ca93b",
+      "commands": [
+        {
+          "name": "Untitled Capture Choice",
+          "type": "NestedChoice",
+          "id": "596beba3-4f03-422c-bae9-eeb9801bbd1a",
+          "choice": {
+            "id": "e99f1a68-b699-4604-b838-d9fff1e4d476",
+            "name": "Untitled Capture Choice",
+            "type": "Capture",
+            "command": false,
+            "appendLink": false,
+            "captureTo": "todo.md",
+            "captureToActiveFile": false,
+            "createFileIfItDoesntExist": {
+              "enabled": false,
+              "createWithTemplate": false,
+              "template": ""
+            },
+            "format": {
+              "enabled": true,
+              "format": "- [ ] {{VALUE}}"
+            },
+            "insertAfter": {
+              "enabled": false,
+              "after": "",
+              "insertAtEnd": false,
+              "considerSubsections": false,
+              "createIfNotFound": false,
+              "createIfNotFoundLocation": "top"
+            },
+            "prepend": false,
+            "task": false,
+            "openFileInNewTab": {
+              "enabled": false,
+              "direction": "vertical",
+              "focus": true
+            },
+            "openFile": false,
+            "openFileInMode": "default"
+          }
+        },
+        {
+          "name": "Ajouter tâche rapide",
+          "type": "Choice",
+          "id": "73b6f617-17b5-4509-820d-c67bb7612d47",
+          "choiceId": "e68af601-9cb3-414a-ab71-79b0de5e2982"
+        }
+      ],
+      "runOnStartup": false
+    }
+  ],
   "inputPrompt": "single-line",
   "devMode": false,
   "templateFolderPath": "",

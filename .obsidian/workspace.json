@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00_Inbox/note-rapide.md",
+                "file": "01_TechWatch/laravel-news-2025-04.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "note-rapide"
+              "title": "laravel-news-2025-04"
             }
           }
         ]
@@ -179,17 +179,23 @@
       "templater-obsidian:Templater": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "obsidian-kanban:Create new board": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "periodic-notes:Open today": false
     }
   },
   "active": "8a67f47480480fa9",
   "lastOpenFiles": [
-    "2025-04-13.md",
+    "01_TechWatch/veille-2025-04-13.md",
+    "02_DevNotes/bug-2025-04-13.md",
+    "01_TechWatch/laravel-news-2025-04.md",
     "00_Inbox/note-rapide.md",
+    "todo.md",
+    "Templates/template-note-journalière.md",
+    "Templates/template-veille.md",
+    "2025-04-13.md",
     "Dashboard.md",
     "03_DocsPerso/projet-flexexpertise/readme.md",
     "02_DevNotes/bug-undefined-variable.md",
-    "01_TechWatch/laravel-news-2025-04.md",
     "Templates/template-note-veille.md",
     "Templates/template-bug.md",
     "00_Inbox/test.md",

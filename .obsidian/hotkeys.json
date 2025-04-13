@@ -1,0 +1,29 @@
+{
+  "quickadd:choice:46e256b9-f528-4609-b538-b8f365757bf8": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "B"
+    }
+  ],
+  "quickadd:choice:93cea016-5d30-4f0a-836f-d50f4c45c9d2": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "V"
+    }
+  ],
+  "quickadd:choice:e68af601-9cb3-414a-ab71-79b0de5e2982": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "L"
+    }
+  ]
+}
