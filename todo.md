@@ -1,11 +1,13 @@
 ---
 created: 2025-04-13
 updated: 2025-04-13
-title: ✅ Tâches Globales
+title: todo
 ---
-# ✅ Tâches Globales
+[[todo]]# ✅ Tâches Globales
 
 ## 📥 Inbox
+
+
 - [ ] test ⏫ 🔁 every week 🛫 2025-04-20 📅 2025-04-20
 - [ ] Exemple de tâche simple
 - [ ] Faire une sauvegarde du vault 📅 2025-04-15
@@ -27,16 +29,6 @@ sort by due
 ```tasks
 not done
 due today
-sort by due
-```
-
----
-
-## 🔁 Tâches Récurrentes
-
-```tasks
-not done
-recurring
 sort by due
 ```
 

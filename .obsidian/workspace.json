@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "1403591e4cb18883",
+        "id": "4509724f8bf84da7",
         "type": "tabs",
         "children": [
           {
-            "id": "5af85f6a2b4da28d",
+            "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Templates/template-bug.md",
+                "file": "todo.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "template-bug"
+              "title": "todo"
             }
           }
         ]
@@ -180,6 +180,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "quickadd:QuickAdd": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -193,16 +194,16 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "5af85f6a2b4da28d",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "Dashboard.md",
+    "todo.md",
+    "Templates/template-bug.md",
     "Templates/template-note-journalière.md",
     "Templates/template-veille.md",
     "Templates/template-note-veille.md",
-    "Templates/template-bug.md",
-    "todo.md",
     "00_Inbox/Journal/empty.md",
     "Templates/template-task.md",
-    "Dashboard.md",
     "02_DevNotes/bug-2025-04-13.md",
     "01_TechWatch/veille-2025-04-13.md",
     "Attachments/empty.md",
