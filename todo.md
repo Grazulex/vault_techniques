@@ -7,7 +7,7 @@ title: todo
 
 ## 📥 Inbox
 
-
+- [ ] ffgdf ⏫ 🔁 every month on the 1st 📅 2025-05-01
 - [ ] test ⏫ 🔁 every week 🛫 2025-04-20 📅 2025-04-20
 - [ ] Exemple de tâche simple
 - [ ] Faire une sauvegarde du vault 📅 2025-04-15
