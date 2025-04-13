@@ -2,7 +2,7 @@
 created: 2025-04-13
 updated: 2025-04-13
 ---
-[[todo]][[todo]]
+[[todo]]
 # 🧭 Dashboard Obsidian
 
 Bienvenue sur ton tableau de bord personnel.

@@ -1,0 +1,17 @@
+{
+  "cascadeColors": true,
+  "colorBackground": false,
+  "palette": [
+    {
+      "id": "4kk8ya0eyPmQaOMjf4ciT",
+      "name": "Blue",
+      "value": "#0000ff"
+    }
+  ],
+  "fileColors": [
+    {
+      "path": "00_Inbox",
+      "color": "4kk8ya0eyPmQaOMjf4ciT"
+    }
+  ]
+}

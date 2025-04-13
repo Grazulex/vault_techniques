@@ -10,5 +10,7 @@
   "calendar",
   "homepage",
   "obsidian-linter",
-  "obsidian-tasks-plugin"
+  "obsidian-tasks-plugin",
+  "obsidian-file-color",
+  "obsidian-icon-folder"
 ]
